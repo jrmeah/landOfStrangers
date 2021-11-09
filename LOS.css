@@ -1,0 +1,30 @@
+h1 {text-align: center;}        
+.logo {text-align:center;}
+.header {text-align: center;}
+.about {position:absolute; left:200px; top:200px; color: black;}
+.content {position:absolute; right:200px; top:200px; color: black;}
+.event {position:absolute; right:200px; bottom:200px; color: black;}
+.product {position:absolute; left:200px; bottom:200px; color: black;}
+.collection {position: relative; top: 510px}
+.product1 {position: relative; top: 510px}
+ 
+    
+#spinner {
+    animation-name: spinner;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    transform-style: preserve-3d;
+    text-align: center;
+}
+    
+@keyframes spinner {
+    from {
+        transform: rotateY(0deg);
+    }
+    
+    to {
+        transform: rotateY(-360deg);
+    }
+
+}
